@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat GPT</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="bg-neutral-900 text-white">
+    <div class="ml-10 mt-10 text-xl absolute top-0">ChatGPT</div>
+    <div class="container max-w-3xl mx-auto  m-15 max-h-xl mb-45" id = "container">
+    </div>
+
+    <div class="fixed w-full bottom-0 bg-neutral-900 rounded-xl">
+        <div class="bg-neutral-700 max-w-3xl mx-auto rounded-xl p-2 mb-5">
+            <div class="">
+                <textarea class="w-full p-4 resize-none outline-none" placeholder="Ask Anything" id="query"></textarea>
+            </div>
+            <div class="ml-auto w-fit">
+                <button class="bg-white text-black font-medium p-1 px-3 rounded-full cursor-pointer hover:bg-neutral-200"> Ask</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
