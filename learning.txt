@@ -1,0 +1,30 @@
+Day 1 :
+
+Interaction between Frontend , Backend, databases
+Rest API
+Monolith vs MicroService Architecture
+Sql, NoSql and 
+Vector DB : Chroma DB
+RAG Architecture
+
+Python (Basics, venv, uv)
+FastAPI (CRUD API's, Request, Response)
+
+LLD (UML, Design Patterns, SOLID)
+
+Docker (Images, Volums, Docker-compose)
+
+
+
+Day 2 :
+
+- React, Tailwind
+- TypeScript
+- Streamlit
+- nginx
+- Load Balancer (RR, Weighted RR, IP Hash, Response time, Number of Connections), 
+- API Rate Limiting(Token Bucket, Leaky Bucket)
+- LangChain, LangGraph and LangSmith
+
+Project : PDF Analyzer (RAG)
+           
