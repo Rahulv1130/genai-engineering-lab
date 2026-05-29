@@ -1,0 +1,8 @@
+services:
+  ngrok:
+    environment:
+      - NGROK_AUTHTOKEN=3EOFHhzmSCAXNo9iPnionG6Py5x_WQiy5v83whCfYaC33xyc
+    image: ngrok/ngrok:latest
+    command: http --url=poet-walnut-eastward.ngrok-free.dev host.docker.internal:8000
+    ports:
+      - 4040:4040

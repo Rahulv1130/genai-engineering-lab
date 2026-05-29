@@ -1,0 +1,8 @@
+.env
+chroma_db
+credentials.json
+__pycache__
+.venv
+token.json
+page_token.json
+channel_state.json
