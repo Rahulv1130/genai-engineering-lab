@@ -39,3 +39,12 @@ Day 3 :
       -- Simple chat GPT Project using Node.js with Web Search Tool Calling
 
 
+Day 4 :
+  - Claude Course
+      -- SKILL.md, Claude.md, SubAgents, Hooks
+      -- Rsponse Streaming, Prompt Evaluation ( Graders - Code, Model and Human)
+  
+  - Graph DB (Neo4j , Cypher Query, Relationships)
+
+  - Add functionality to Rag Pdf Project :
+    -- Google Drive file Link

@@ -19,7 +19,8 @@ PROMPT = ChatPromptTemplate.from_messages(
         (
             "system",
             "Answer the question using only the context below. "
-            "If the answer is not in the context, say 'I don't know'.\n\n"
+            "If the question is generic like Hi, Hello and you think you can answer it the please do"
+            "If you cant or If the answer is not in the context, say 'I don't know'.\n\n"
             "Context:\n{context}",
         ),
         ("human", "{question}"),
